@@ -1,0 +1,370 @@
+* {
+    scroll-behavior: smooth;
+    align-items: center;
+}
+
+body {
+    background-image: url(./src/images/FUNDO\ CEL.png);
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: #180847; */
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.container-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* gap: 5rem; */
+    padding-bottom: 5rem;
+}
+
+.container-top div {
+    max-width: 25rem;
+    text-align: center;
+}
+
+.container-top .titulo {
+    font-family: MADE-OUTER-SANS-REGULAR;
+    /* margin-top: 15rem; */
+    font-size: 1.2rem;
+    text-align: left;
+    color: #fff;
+    text-align: justify;
+}
+
+.container-top .text-orange-top {
+    margin-top: 2rem;
+    color: #FF8400;
+    font-size: 1.5rem;
+    font-family: MADE-OUTER-SANS-REGULAR;
+    text-align: justify;
+}
+
+.container-top .text-white-top {
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: MADE-OUTER-SANS-REGULAR;
+    text-align: justify;
+    padding-bottom: 4rem;
+}
+
+.container-top .btn-orange-top {
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.5rem;
+    background-color: #FF8400;
+    padding: 1.2rem;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+.container-top .btn-orange-top:hover {
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.5rem;
+    background-color: #FF8400;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    border-radius: 0.3rem;
+    transition-duration: 0.3s;
+}
+
+.container-top .btn-orange-top:not(:hover) {
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.5rem;
+    background-color: #FF8400;
+    padding: 1.2rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+
+
+.container-top .btn-orange-top img {
+    block-size: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.container-top img {
+    max-width: 22rem;
+    padding-top: 10rem;
+}
+
+.container-vantagens {
+    min-height: 600px;
+    height: max-content;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #fff;
+    columns: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.container-vantagens div h3 {
+    color: #FF8400;
+    font-family: MADE-OUTER-SANS-REGULAR;
+    padding: 3rem 0;
+    font-size: 1.8rem;
+}
+
+.container-vantagens div ul li {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: MADE-OUTER-SANS-REGULAR;
+}
+
+.container-vantagens div ul li .aula-ao-vivo {
+    color: #180847;
+    font-family: MADE-OUTER-SANS-THIN;
+}
+
+.container-vantagens div ul li .aula-ao-vivo .span-vivo {
+    font-family: MADE-OUTER-SANS-BOLD;
+}
+
+.container-vantagens div ul li .aula-online {
+    color: #FF8400;
+    font-family: MADE-OUTER-SANS-REGULAR;
+}
+
+.container-vantagens div ul li .aula-grupo-ou-vip {
+    font-family: MADE-OUTER-SANS-LIGHT;
+}
+
+.container-vantagens div ul li .aula-material {
+    color: #FF8400;
+    font-family: MADE-OUTER-SANS-LIGHT;
+}
+
+.container-informacoes {
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.container-informacoes .info-white-material {
+    color: #fff;
+    font-family: MADE-OUTER-SANS-THIN;
+    font-size: 1rem;
+    padding: 1rem 0;
+
+}
+
+.container-informacoes .info-orange-aprender {
+    color: #FF8400;
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+
+.container-informacoes .info-white-vagas {
+    color: #fff;
+    font-family: MADE-OUTER-SANS-THIN;
+    font-weight: 800;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+.container-informacoes .info-white-oportunidade {
+    color: #fff;
+    font-family: MADE-OUTER-SANS-THIN;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.container-informacoes .info-orange-mensagem {
+    color: #FF8400;
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.1rem;
+    padding: 1rem 0;
+}
+
+.container-informacoes .container-foto-alunos {
+    background-image: linear-gradient(transparent 60%, #fff 10%);
+    text-align: center;
+}
+
+.container-informacoes .container-foto-alunos h2 {
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.8rem;
+    color: #180847;
+    padding: 1rem 0 6rem 0;
+}
+
+.container-aula-demo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 8rem 5rem 8rem;
+    gap: 5rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.container-aula-demo .aula-descricao li {
+    font-size: 1rem;
+    padding: 0.6rem;
+    text-align: left;
+    color: #FF8400;
+    font-family: MADE-OUTER-SANS-THIN;
+}
+
+
+.container-aula-demo .aula-descricao .aula-video {
+    color: #180847;
+    font-family: MADE-OUTER-SANS-BOLD;
+    font-size: 1.3rem;
+    padding-bottom: 1.8rem;
+}
+
+.marque-sua-entrevista {
+    background-color: #fff;
+    padding: 0 6rem 6rem;
+    text-align: center;
+
+}
+
+.marque-sua-entrevista .agende-horario {
+    margin-bottom: 6rem;
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.5rem;
+}
+
+.marque-sua-entrevista .btn-orange-entrevista {
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.5rem;
+    background-color: #FF8400;
+    padding: 1.2rem;
+    border-radius: 0.3rem;
+    text-align: center;
+
+}
+
+.marque-sua-entrevista .btn-orange-entrevista:hover {
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.5rem;
+    background-color: #FF8400;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    border-radius: 0.3rem;
+    transition-duration: 0.3s;
+
+}
+
+.marque-sua-entrevista .btn-orange-entrevista:not(:hover) {
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.5rem;
+    background-color: #FF8400;
+    padding: 1.2rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    transition-duration: 0.3s;
+
+}
+
+.container-ajuda {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 5rem;
+    margin-bottom: 2rem;
+}
+
+.container-ajuda .ajudar {
+    color: #fff;
+    text-align: center;
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+
+.container-ajuda .formulario {
+    color: #fff;
+    text-align: center;
+    font-family: MADE-OUTER-SANS-THIN;
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+}
+
+.container-ajuda .btn-orange-fluente {
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.5rem;
+    background-color: #FF8400;
+    padding: 1.2rem;
+    border-radius: 0.3rem;
+    text-align: center;
+
+}
+
+.container-ajuda .btn-orange-fluente:hover {
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.5rem;
+    background-color: #FF8400;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    border-radius: 0.3rem;
+    transition-duration: 0.3s;
+    text-align: center;
+}
+
+.container-ajuda .btn-orange-fluente:not(:hover) {
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.5rem;
+    background-color: #FF8400;
+    padding: 1.2rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    transition-duration: 0.3s;
+
+}
+
+.container-ajuda img {
+    max-width: 300px;
+    padding-top: 2rem;
+}
+
+.container-ajuda ul {
+    display: flex;
+    justify-content: space-evenly;
+    /* font-size: 2rem; */
+}
+
+.container-ajuda ul li {
+    font-size: 1.5rem;
+    background-color: #FF8400;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+.container-ajuda ul li a:hover {
+    background-color: #FF8400;
+    padding: 0.7rem;
+    font-size: 2.5rem;
+    border-radius: 0.3rem;
+    transition-duration: 0.3s;
+    text-align: center;
+}
+
+.container-ajuda ul li a:not(:hover) {
+    font-size: 1.5rem;
+    background-color: #FF8400;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    transition-duration: 0.3s;
+
+}
+
+.container-bottom{
+    background-color: #fff;
+    color: #FF8400;
+    font-family: MADE-OUTER-SANS-REGULAR;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+}
